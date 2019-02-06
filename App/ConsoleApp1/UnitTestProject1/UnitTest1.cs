@@ -21,18 +21,18 @@ namespace UnitTestProject1
 			Assert.AreEqual(expected, actual);
 		}
 
-		//[TestMethod]
-		//public void BrokenTestAdd()
-		//{
-		//	int expected = 6;
-		//	int a = 3;
-		//	int b = 2;
+		[TestMethod]
+		public void BrokenTestAdd()
+		{
+			int expected = 6;
+			int a = 3;
+			int b = 2;
 
 
-		//	int actual = Program.Sum(a, b);
+			int actual = Program.Sum(a, b);
 
 
-		//	Assert.AreEqual(expected, actual);
-		//}
+			Assert.AreEqual(expected, actual);
+		}
 	}
 }
